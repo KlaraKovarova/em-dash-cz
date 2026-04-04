@@ -48,6 +48,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: out/
           server-dir: domains/em-dash.cz/public_html/
+          dangerous-clean-slate: true
           exclude: |
             **/.git*
             **/.git*/**
