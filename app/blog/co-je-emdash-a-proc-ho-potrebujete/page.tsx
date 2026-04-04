@@ -95,7 +95,7 @@ export default function CoJeEmdashPost() {
                     Jira boardem
                   </li>
                   <li>
-                    2. Tickety v stavu „Todo" se automaticky přidělí
+                    2. Tickety v stavu &bdquo;Todo&ldquo; se automaticky přidělí
                     dostupným agentům
                   </li>
                   <li>

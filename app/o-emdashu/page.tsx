@@ -43,7 +43,7 @@ export default function OEmdashuPage() {
                 Agentic Development Environment
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                EMDash (čte se „em-dash") je open-source desktopová aplikace,
+                EMDash (čte se &bdquo;em-dash&ldquo;) je open-source desktopová aplikace,
                 která mění způsob, jakým vývojáři pracují s AI. Namísto jednoho
                 chatovacího asistenta, se kterým střídavě komunikujete, EMDash
                 spouští desítky AI kodérů <strong>paralelně</strong> – každý
