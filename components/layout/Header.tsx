@@ -2,9 +2,9 @@ import Link from 'next/link'
 
 const navLinks = [
   { href: '/funkce', label: 'Funkce' },
+  { href: '/zacit', label: 'Začínáme' },
   { href: '/o-emdashu', label: 'O EMDashi' },
   { href: '/blog', label: 'Blog' },
-  { href: '/kontakt', label: 'Kontakt' },
 ]
 
 export default function Header() {

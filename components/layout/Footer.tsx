@@ -18,9 +18,9 @@ export default function Footer() {
             <ul className="mt-3 space-y-2">
               {[
                 { href: '/funkce', label: 'Funkce' },
+                { href: '/zacit', label: 'Začínáme' },
                 { href: '/o-emdashu', label: 'O EMDashi' },
                 { href: '/blog', label: 'Blog' },
-                { href: '/kontakt', label: 'Kontakt' },
               ].map((link) => (
                 <li key={link.href}>
                   <Link
