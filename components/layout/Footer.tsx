@@ -58,6 +58,16 @@ export default function Footer() {
                   MIT Licence
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://www.hostinger.com/cz?REFERRALCODE=TAEZACHMILYI"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-gray-500 hover:text-gray-900"
+                >
+                  Hosting od Hostinger
+                </a>
+              </li>
             </ul>
           </div>
         </div>

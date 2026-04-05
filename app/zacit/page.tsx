@@ -38,7 +38,7 @@ const steps = [
     description:
       'V průvodci nastavením vyberte lokální složku vašeho git repozitáře, nebo se připojte přes SSH/SFTP na vzdálený server. EMDash vytvoří izolované worktrees pro každého agenta automaticky.',
     code: null,
-    tip: 'Ujistěte se, že váš repozitář má čistý hlavní branch (main/master) bez nesloučených změn.',
+    tip: (<>Ujistěte se, že váš repozitář má čistý hlavní branch (main/master) bez nesloučených změn. Potřebujete hosting? Doporučujeme{' '}<a href="https://www.hostinger.com/cz?REFERRALCODE=TAEZACHMILYI" target="_blank" rel="noopener noreferrer" className="underline font-medium">Hostinger</a> – cenově dostupný a spolehlivý.</>),
   },
   {
     number: '04',
