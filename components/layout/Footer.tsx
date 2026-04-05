@@ -18,6 +18,7 @@ export default function Footer() {
             <ul className="mt-3 space-y-2">
               {[
                 { href: '/funkce', label: 'Funkce' },
+                { href: '/sablony', label: 'Šablony' },
                 { href: '/zacit', label: 'Začínáme' },
                 { href: '/o-emdashu', label: 'O EMDashi' },
                 { href: '/blog', label: 'Blog' },

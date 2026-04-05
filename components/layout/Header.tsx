@@ -2,6 +2,7 @@ import Link from 'next/link'
 
 const navLinks = [
   { href: '/funkce', label: 'Funkce' },
+  { href: '/sablony', label: 'Šablony' },
   { href: '/zacit', label: 'Začínáme' },
   { href: '/o-emdashu', label: 'O EMDashi' },
   { href: '/blog', label: 'Blog' },
