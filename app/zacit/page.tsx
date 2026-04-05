@@ -20,9 +20,9 @@ const steps = [
     number: '01',
     title: 'Stáhněte EMDash z GitHubu',
     description:
-      'Přejděte na GitHub repozitář EMDash a stáhněte si nejnovější release pro váš operační systém (macOS nebo Linux). EMDash je desktopová aplikace – žádný cloud, žádné předplatné.',
+      'Přejděte na GitHub repozitář EMDash a stáhněte si nejnovější release pro váš operační systém (macOS, Linux nebo Windows). EMDash je desktopová aplikace – žádný cloud, žádné předplatné.',
     code: 'git clone https://github.com/generalaction/emdash\ncd emdash\nnpm install',
-    tip: 'Pro macOS doporučujeme stáhnout .dmg soubor přímo z Releases sekce na GitHubu.',
+    tip: 'Pro macOS doporučujeme .dmg, pro Windows .exe nebo .msi instalátor – vše najdete v Releases sekci na GitHubu.',
   },
   {
     number: '02',
@@ -87,7 +87,7 @@ export default function ZacitPage() {
                 <span>·</span>
                 <span>🆓 Zcela zdarma</span>
                 <span>·</span>
-                <span>🛠️ macOS / Linux</span>
+                <span>🛠️ macOS / Linux / Windows</span>
               </div>
             </div>
           </div>
@@ -137,7 +137,7 @@ export default function ZacitPage() {
               {[
                 {
                   q: 'Funguje EMDash na Windows?',
-                  a: 'Momentálně je EMDash optimalizovaný pro macOS a Linux. Podpora Windows je plánována v budoucích verzích.',
+                  a: 'Ano! Od verze 0.4.45 je k dispozici nativní Windows verze. Stáhněte si .exe nebo .msi instalátor z GitHub Releases.',
                 },
                 {
                   q: 'Musím mít placené API klíče?',
