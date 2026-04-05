@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Footer() {
@@ -6,7 +7,12 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div>
-            <span className="text-lg font-bold text-gray-900">em—dash.cz</span>
+            <Image
+              src="/logo.png"
+              alt="em-dash.cz"
+              width={120}
+              height={30}
+            />
             <p className="mt-2 text-sm text-gray-500">
               Česká komunita kolem EMDash – open-source Agentic Development
               Environment.
