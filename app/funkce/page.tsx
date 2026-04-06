@@ -68,7 +68,7 @@ const featureGroups = [
         icon: '🌐',
         title: 'Provider-agnostický',
         description:
-          'EMDash není svázaný s žádným konkrétním AI poskytovatelem. Funguje s Claude Code, GitHub Copilot, Cursor, Qwen a dalšími. Máte svobodu volby – a tu si vždy udržíte.',
+          'EMDash není svázaný s žádným konkrétním AI poskytovatelem. Funguje s Claude Code, GitHub Copilot, Cursor, Qwen, Forge a dalšími. Máte svobodu volby – a tu si vždy udržíte.',
       },
       {
         icon: '🖥️',
@@ -85,13 +85,36 @@ const featureGroups = [
     ],
   },
   {
+    heading: 'Automatizace a monitoring',
+    features: [
+      {
+        icon: '🤖',
+        title: 'Automations (beta)',
+        description:
+          'Nastavte si opakující se úkoly – denní buildy, pravidelné kontroly kódu nebo noční testy. EMDash je spouští automaticky podle plánu přímo na vašem počítači.',
+      },
+      {
+        icon: '📈',
+        title: 'Resource monitor',
+        description:
+          'Sledujte vytížení CPU, RAM a disku při běhu agentů. Volitelný monitor vám ukáže, kolik zdrojů vaši agenti spotřebovávají v reálném čase.',
+      },
+      {
+        icon: '🔔',
+        title: 'Notifikace a zvukové profily',
+        description:
+          'Nastavte si zvukové notifikace pro dokončení úkolů. Vyberte si z předdefinovaných profilů nebo zůstaňte u tichého režimu.',
+      },
+    ],
+  },
+  {
     heading: 'Vývojářské rozhraní',
     features: [
       {
         icon: '🖱️',
         title: 'Electron desktop aplikace',
         description:
-          'EMDash je nativní desktopová aplikace postavená na Electronu a TypeScriptu. Běží přímo na vašem Macu nebo Linuxu – žádný cloud, žádné předplatné, vaše data zůstávají u vás.',
+          'EMDash je nativní desktopová aplikace postavená na Electronu a TypeScriptu. Běží přímo na vašem Macu, Linuxu nebo Windows – žádný cloud, žádné předplatné, vaše data zůstávají u vás.',
       },
       {
         icon: '📊',

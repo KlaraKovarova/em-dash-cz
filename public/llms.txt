@@ -1,6 +1,6 @@
 # EMDash – Agentic Development Environment
 
-> EMDash is an open-source desktop application that runs 23+ AI coding agents in parallel, each in isolated git worktrees. It integrates with Linear, GitHub Issues, and Jira for automatic task assignment. Provider-agnostic: works with Claude Code, GitHub Copilot, Cursor, Qwen, Codex CLI, and Gemini CLI. MIT licensed, YC W26. This is em-dash.cz, an independent Czech community website about EMDash.
+> EMDash is an open-source desktop application that runs 23+ AI coding agents in parallel, each in isolated git worktrees. It integrates with Linear, GitHub Issues, and Jira for automatic task assignment. Provider-agnostic: works with Claude Code, GitHub Copilot, Cursor, Qwen, Codex CLI, Gemini CLI, and Forge. MIT licensed, YC W26. Latest version: v0.4.47 (April 2026). This is em-dash.cz, an independent Czech community website about EMDash.
 
 ## Main Pages
 
@@ -19,6 +19,7 @@
 
 ## Blog Posts
 
+- [EMDash v0.4.47 – Automations, Forge a další novinky](https://em-dash.cz/blog/emdash-0-4-47-automations-forge-novinky/): New features in v0.4.45–v0.4.47 — Automations for scheduled tasks, Forge provider, resource monitor, macOS fixes, monorepo performance.
 - [Co je EMDash a proč ho potřebujete](https://em-dash.cz/blog/co-je-emdash-a-proc-ho-potrebujete/): Introduction to EMDash — the problem with sequential AI workflows, how parallel agents solve it, and why to try it now.
 
 ## Links

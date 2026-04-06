@@ -17,6 +17,15 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'emdash-0-4-47-automations-forge-novinky',
+    title: 'EMDash v0.4.47 – Automations, Forge a další novinky',
+    date: '6. dubna 2026',
+    readTime: '5 min čtení',
+    excerpt:
+      'Největší novinka: Automations – plánované opakující se úkoly pro AI agenty. Nový poskytovatel Forge, resource monitor, opravy macOS a optimalizace pro velké repozitáře.',
+    tags: ['EMDash', 'Automations', 'novinky'],
+  },
+  {
     slug: 'co-je-emdash-a-proc-ho-potrebujete',
     title: 'Co je EMDash a proč ho potřebujete',
     date: '4. dubna 2026',

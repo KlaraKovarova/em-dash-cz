@@ -35,6 +35,12 @@ const agents = [
     color: 'bg-yellow-50 border-yellow-200',
     dot: 'bg-yellow-500',
   },
+  {
+    name: 'Forge',
+    maker: 'forgecode.dev',
+    color: 'bg-red-50 border-red-200',
+    dot: 'bg-red-500',
+  },
 ]
 
 export default function AgentsShowcaseSection() {

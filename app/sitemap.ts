@@ -61,8 +61,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${BASE_URL}/blog/emdash-0-4-47-automations-forge-novinky`,
+      lastModified: new Date('2026-04-06'),
+      changeFrequency: 'yearly',
+      priority: 0.7,
+    },
+    {
       url: `${BASE_URL}/blog/co-je-emdash-a-proc-ho-potrebujete`,
-      lastModified: new Date('2025-01-15'),
+      lastModified: new Date('2026-04-04'),
       changeFrequency: 'yearly',
       priority: 0.6,
     },

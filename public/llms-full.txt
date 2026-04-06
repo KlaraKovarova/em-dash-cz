@@ -1,6 +1,6 @@
 # EMDash – Agentic Development Environment
 
-> EMDash is an open-source desktop application that runs 23+ AI coding agents in parallel, each in isolated git worktrees. It integrates with Linear, GitHub Issues, and Jira for automatic task assignment. Provider-agnostic: works with Claude Code, GitHub Copilot, Cursor, Qwen, Codex CLI, and Gemini CLI. MIT licensed, YC W26. This is em-dash.cz, an independent Czech community website about EMDash.
+> EMDash is an open-source desktop application that runs 23+ AI coding agents in parallel, each in isolated git worktrees. It integrates with Linear, GitHub Issues, and Jira for automatic task assignment. Provider-agnostic: works with Claude Code, GitHub Copilot, Cursor, Qwen, Codex CLI, Gemini CLI, and Forge. MIT licensed, YC W26. Latest version: v0.4.47 (April 2026). This is em-dash.cz, an independent Czech community website about EMDash.
 
 ## Homepage
 
@@ -26,6 +26,7 @@ Supported AI providers:
 - Qwen Coder (Alibaba)
 - Codex CLI (OpenAI)
 - Gemini CLI (Google)
+- Forge (forgecode.dev)
 
 ## Features
 
@@ -41,13 +42,18 @@ Vše, co potřebujete k tomu, aby AI agenti pracovali za vás — paralelně, iz
 - GitHub Issues: Read issues directly, assign them to agents, and create pull requests automatically.
 - Jira: Connect your existing Jira workflow. Agents pick up Jira tickets and work on them.
 
+### Automation and Monitoring
+- Automations (beta): Schedule recurring tasks — daily builds, nightly tests, periodic code checks. Supports cron schedules, webhooks, API triggers, run logs, and templates. Runs locally.
+- Resource monitor: Optional CPU, RAM, and disk usage tracking while agents are running.
+- Notification sound profiles: Customizable audio notifications for task completion.
+
 ### Flexibility and Accessibility
-- Provider-agnostic: Use Claude Code, GitHub Copilot, Cursor, Qwen, or any supported AI provider. Mix and match.
+- Provider-agnostic: Use Claude Code, GitHub Copilot, Cursor, Qwen, Forge, or any supported AI provider. Mix and match.
 - SSH and SFTP support: Connect to remote servers. Agents can work on repositories hosted anywhere.
 - Open-source, MIT licence: Full source code access. No vendor lock-in, no subscription fees.
 
 ### Developer Interface
-- Electron desktop app: Native application for macOS, Linux, and Windows with a clean, intuitive UI.
+- Electron desktop app: Native application for macOS, Linux, and Windows (since v0.4.45) with a clean, intuitive UI.
 - Real-time agent dashboard: See status of all running agents, their progress, and output in real time.
 - Code review workflow: Every agent creates a pull request. You review and merge — full control over what ships.
 
@@ -143,6 +149,26 @@ A structured technical documentation template with:
 ## Blog
 
 Články, průvodce a postřehy o EMDash a agentic developmentu pro českou vývojářskou komunitu.
+
+### EMDash v0.4.47 – Automations, Forge a další novinky
+Published: April 6, 2026 | Reading time: 5 minutes
+
+Key updates in EMDash v0.4.45–v0.4.47:
+
+Automations (v0.4.45): Schedule recurring tasks for AI agents — daily builds, periodic code checks, nightly tests. Runs locally with cron schedules, webhook triggers, API triggers, run logs with history, manual run anytime, and built-in templates. Currently in beta.
+
+New provider: Forge (v0.4.46): Added support for Forge (forgecode.dev) as an AI provider alongside Claude Code, GitHub Copilot, Cursor, Qwen, Codex CLI, and Gemini CLI.
+
+Performance and stability fixes:
+- Optimized git status for large monorepos (v0.4.45)
+- Fixed macOS crashing since v0.4.43 (v0.4.46)
+- Fixed 15-second SSH delay with fish shell (v0.4.46, v0.4.47)
+- Added Reveal in Finder / Open in Terminal context menu (v0.4.47)
+- Persistent sidebar folder collapse state (v0.4.47)
+
+Resource monitor (v0.4.40): Optional CPU, RAM, and disk usage monitoring during agent execution.
+
+Update by downloading the latest release from GitHub Releases for macOS (.dmg), Linux (.deb, .AppImage), or Windows (.exe, .msi).
 
 ### Co je EMDash a proč ho potřebujete
 Published: April 4, 2026 | Reading time: 6 minutes
