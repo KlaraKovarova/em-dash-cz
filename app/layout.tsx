@@ -48,6 +48,9 @@ export default function RootLayout({
       lang="cs"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <link rel="help" type="text/plain" href="/llms.txt" />
+      </head>
       <body className="flex min-h-full flex-col bg-background text-foreground">
         {children}
         <Script

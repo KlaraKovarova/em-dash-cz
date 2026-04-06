@@ -1,0 +1,177 @@
+# EMDash – Agentic Development Environment
+
+> EMDash is an open-source desktop application that runs 23+ AI coding agents in parallel, each in isolated git worktrees. It integrates with Linear, GitHub Issues, and Jira for automatic task assignment. Provider-agnostic: works with Claude Code, GitHub Copilot, Cursor, Qwen, Codex CLI, and Gemini CLI. MIT licensed, YC W26. This is em-dash.cz, an independent Czech community website about EMDash.
+
+## Homepage
+
+EMDash — Kóduj s 23+ AI agenty najednou.
+
+EMDash je Agentic Development Environment, který spouští desítky AI kodérů paralelně v izolovaných git větvích. Propojte Linear, GitHub Issues nebo Jira a nechte agenty řešit úkoly za vás.
+
+Key statistics:
+- 23+ AI agents running simultaneously
+- 100% open-source under MIT licence
+- Unlimited AI providers supported
+
+How it works in 4 steps:
+1. Install EMDash — Download the Electron app for macOS, Linux, or Windows.
+2. Connect your repository — Link a local git repo or connect via SSH/SFTP to a remote server.
+3. Connect your task manager — Optionally integrate Linear, GitHub Issues, or Jira for automatic task assignment.
+4. Run agents — EMDash creates isolated git worktrees and runs AI agents in parallel. Each agent works on its own task and creates a pull request when done.
+
+Supported AI providers:
+- Claude Code (Anthropic)
+- GitHub Copilot (Microsoft/GitHub)
+- Cursor (Anysphere)
+- Qwen Coder (Alibaba)
+- Codex CLI (OpenAI)
+- Gemini CLI (Google)
+
+## Features
+
+Vše, co potřebujete k tomu, aby AI agenti pracovali za vás — paralelně, izolovaně a s plnou kontrolou.
+
+### Parallel Development
+- 23+ AI agents at once: Run dozens of AI coders simultaneously. Each agent works on its own task independently.
+- Isolated git worktrees: Every agent gets a separate git branch. No conflicts, clean code review via pull requests.
+- Automatic task assignment: Connect Linear, GitHub Issues, or Jira. EMDash automatically assigns tickets to available agents.
+
+### Tool Integrations
+- Linear: Automatic issue assignment, real-time status tracking, and comments synced back to Linear.
+- GitHub Issues: Read issues directly, assign them to agents, and create pull requests automatically.
+- Jira: Connect your existing Jira workflow. Agents pick up Jira tickets and work on them.
+
+### Flexibility and Accessibility
+- Provider-agnostic: Use Claude Code, GitHub Copilot, Cursor, Qwen, or any supported AI provider. Mix and match.
+- SSH and SFTP support: Connect to remote servers. Agents can work on repositories hosted anywhere.
+- Open-source, MIT licence: Full source code access. No vendor lock-in, no subscription fees.
+
+### Developer Interface
+- Electron desktop app: Native application for macOS, Linux, and Windows with a clean, intuitive UI.
+- Real-time agent dashboard: See status of all running agents, their progress, and output in real time.
+- Code review workflow: Every agent creates a pull request. You review and merge — full control over what ships.
+
+## Getting Started
+
+Od instalace k prvním AI agentům za méně než 10 minut. Průvodce krok za krokem.
+
+### Step 1: Download EMDash from GitHub
+Download the latest release from GitHub. EMDash is available for macOS (.dmg), Linux (.AppImage, .deb), and Windows (.exe installer).
+
+### Step 2: Run the Application
+Launch EMDash after installation. On first run, it guides you through initial configuration.
+
+### Step 3: Connect Your Repository
+Connect a local git repository or use SSH/SFTP to connect to a remote server (e.g., Hostinger, DigitalOcean, AWS).
+
+### Step 4: Configure Your AI Provider
+Set up API keys for your preferred AI providers:
+- Claude Code: Anthropic API key
+- GitHub Copilot: GitHub authentication
+- Cursor: Cursor API access
+- Qwen: Alibaba Cloud API key
+
+### Step 5: Link Task Manager (Optional)
+Optionally connect Linear, GitHub Issues, or Jira for automatic task assignment. Without a task manager, you can manually assign tasks to agents.
+
+### Step 6: Launch Your First Agents
+Start with 2-3 agents to get familiar. Each agent creates an isolated git worktree, works on its assigned task, and opens a pull request when finished. You review and merge.
+
+### FAQ
+- Windows support: Yes, from version 0.4.45+.
+- API key costs: Depends on the AI provider. EMDash itself is free and open-source.
+- Data privacy: Everything runs locally. Only prompts are sent to the AI provider.
+- Agent limit: 10-23+ agents depending on hardware (CPU, RAM, network).
+
+## About EMDash
+
+Agentic Development Environment pro vývojáře, kteří chtějí víc než jednoho AI asistenta.
+
+### What is EMDash?
+EMDash is an open-source desktop application that lets you run dozens of AI coding agents in parallel. Each agent gets its own isolated git worktree and its own task. It's like having a team of developers working simultaneously on different features, bug fixes, or refactors — while you focus on architecture and code review.
+
+### Core Capabilities
+- 23+ agents at once: Each agent works autonomously on its own task in its own branch.
+- Isolated git worktrees: Clean separation between agents. Easy review via pull requests.
+- Linear, GitHub, Jira integration: Automatic task assignment from your existing project management tools.
+- Any AI model: Claude Code, GitHub Copilot, Cursor, Qwen — use what works best for you.
+- SSH/SFTP: Connect to remote servers and repositories hosted anywhere.
+- MIT licence: Free, open-source, no vendor lock-in.
+
+### Y Combinator W26
+EMDash is part of Y Combinator's Winter 2026 batch — the same accelerator that backed Airbnb, Stripe, Dropbox, Reddit, and OpenAI. This signals that agentic development has real potential to transform software engineering.
+
+### Why Open-Source?
+The EMDash team believes developer tools should be transparent and auditable. The MIT licence allows anyone to use, modify, and distribute the software freely. No subscription fees, no hidden costs, no vendor lock-in.
+
+### About em-dash.cz
+em-dash.cz is an independent Czech community website. It is not the official EMDash project website. The site provides news, guides, tutorials, and practical insights about EMDash and agentic development for Czech and Slovak developers.
+
+## Templates
+
+Profesionální šablony stránek vytvořené s pomocí EMDash AI agentů. Open-source, připravené k nasazení.
+
+### SaaS Landing Page
+A modern SaaS landing page template with:
+- Hero section with main value proposition and CTAs
+- Features grid showcasing product capabilities (quick start, security, real-time analytics, integrations, global CDN, API-first design)
+- Pricing plans: Starter (Free), Pro (€29/month), Enterprise (custom)
+- Testimonials from fictional users
+- Social proof and conversion-optimized CTAs
+- Tags: Landing page, SaaS, Startup
+
+### Developer Portfolio
+A clean, minimalist developer portfolio template with:
+- Hero section with name and title
+- Projects showcase with descriptions (TaskFlow, DataPipe, PixelSnap, CloudMetrics)
+- Skills grouped by category: Languages, Frontend, Backend, DevOps
+- Career timeline with work experience
+- Contact CTA section
+- Tags: Portfolio, Personal, Developer
+
+### Documentation
+A structured technical documentation template with:
+- Sidebar navigation with collapsible sections
+- Code blocks with syntax highlighting
+- API reference table with endpoints, methods, and descriptions
+- Installation guide with package manager commands
+- Authentication examples with code snippets
+- Error codes table with status codes and descriptions
+- Breadcrumb navigation
+- Tags: Docs, API, Guide
+
+## Blog
+
+Články, průvodce a postřehy o EMDash a agentic developmentu pro českou vývojářskou komunitu.
+
+### Co je EMDash a proč ho potřebujete
+Published: April 4, 2026 | Reading time: 6 minutes
+
+The problem: Traditional AI-assisted development is sequential. You give the AI a task, wait for it to finish, review the output, then move to the next task. This bottleneck limits how fast you can ship.
+
+The solution: EMDash runs multiple AI agents in parallel, each in its own isolated git worktree. Instead of one agent doing tasks sequentially, you have 23+ agents working simultaneously on different tasks.
+
+How it works:
+1. Connect your task manager (Linear, GitHub Issues, or Jira)
+2. EMDash automatically assigns tickets to available agents
+3. Each agent gets its own git worktree (isolated branch)
+4. Agents work independently and create pull requests when done
+5. You review and merge — maintaining full control
+
+Provider-agnostic: EMDash works with Claude Code, GitHub Copilot, Cursor, Qwen, and others. You can mix different providers for different tasks.
+
+Open-source and MIT: EMDash is completely free. The source code is on GitHub. No subscription, no vendor lock-in.
+
+YC W26: Being accepted to Y Combinator validates that agentic development is a real, growing category — not just a trend.
+
+Why try it now: Agentic development is the future of software engineering. Early adopters who learn to manage parallel AI agents will have a significant productivity advantage.
+
+## Contact
+
+The contact page at /kontakt/ provides a way to reach the em-dash.cz team.
+
+## Links
+
+- GitHub Repository: https://github.com/generalaction/emdash
+- Website: https://em-dash.cz
+- Compact LLM Context: https://em-dash.cz/llms.txt

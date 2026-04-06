@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://em-dash.cz/sitemap.xml
+
+# LLMs context
+LLMs-Txt: https://em-dash.cz/llms.txt

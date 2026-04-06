@@ -1,0 +1,27 @@
+# EMDash – Agentic Development Environment
+
+> EMDash is an open-source desktop application that runs 23+ AI coding agents in parallel, each in isolated git worktrees. It integrates with Linear, GitHub Issues, and Jira for automatic task assignment. Provider-agnostic: works with Claude Code, GitHub Copilot, Cursor, Qwen, Codex CLI, and Gemini CLI. MIT licensed, YC W26. This is em-dash.cz, an independent Czech community website about EMDash.
+
+## Main Pages
+
+- [Homepage](https://em-dash.cz/): Overview of EMDash — parallel AI agents, isolated worktrees, tool integrations, and supported providers.
+- [Features](https://em-dash.cz/funkce/): Detailed feature breakdown — parallel development, Linear/GitHub/Jira integrations, SSH/SFTP support, Electron desktop app.
+- [Getting Started](https://em-dash.cz/zacit/): Step-by-step installation guide — download, connect repository, configure AI providers, link task managers, launch agents.
+- [About EMDash](https://em-dash.cz/o-emdashu/): What EMDash is, YC W26 background, why open-source, and about the em-dash.cz community site.
+- [Templates](https://em-dash.cz/sablony/): Free open-source page templates built with EMDash AI agents.
+- [Blog](https://em-dash.cz/blog/): Articles and guides about EMDash and agentic development for Czech developers.
+
+## Templates
+
+- [SaaS Landing Page](https://em-dash.cz/sablony/saas-landing/): Modern SaaS landing template with hero, features grid, pricing plans, and testimonials.
+- [Developer Portfolio](https://em-dash.cz/sablony/portfolio/): Clean minimalist portfolio template with projects, skills, and career timeline.
+- [Documentation](https://em-dash.cz/sablony/dokumentace/): Structured technical documentation template with sidebar navigation, code blocks, and API reference.
+
+## Blog Posts
+
+- [Co je EMDash a proč ho potřebujete](https://em-dash.cz/blog/co-je-emdash-a-proc-ho-potrebujete/): Introduction to EMDash — the problem with sequential AI workflows, how parallel agents solve it, and why to try it now.
+
+## Links
+
+- [GitHub Repository](https://github.com/generalaction/emdash)
+- [Full LLM Context](https://em-dash.cz/llms-full.txt)
