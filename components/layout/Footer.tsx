@@ -78,9 +78,30 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 border-t border-gray-200 pt-8 text-center text-xs text-gray-400">
-          © {new Date().getFullYear()} em-dash.cz — Nezávislý komunitní web o
-          EMDash (YC W26)
+        <div className="mt-8 flex flex-col items-center gap-3 border-t border-gray-200 pt-8">
+          <div className="flex items-center gap-3 text-xs text-gray-500">
+            <span className="font-medium text-gray-700">CZ</span>
+            <span className="text-gray-300">|</span>
+            <a
+              href="https://em-dash.pl"
+              rel="noopener noreferrer"
+              className="hover:text-gray-900"
+            >
+              PL
+            </a>
+            <span className="text-gray-300">|</span>
+            <a
+              href="https://em-dash.de"
+              rel="noopener noreferrer"
+              className="hover:text-gray-900"
+            >
+              DE
+            </a>
+          </div>
+          <div className="text-xs text-gray-400">
+            © {new Date().getFullYear()} em-dash.cz — Nezávislý komunitní web o
+            EMDash (YC W26)
+          </div>
         </div>
       </div>
     </footer>

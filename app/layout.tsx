@@ -27,6 +27,15 @@ export const metadata: Metadata = {
     'Agentic Development',
   ],
   metadataBase: new URL('https://em-dash.cz'),
+  alternates: {
+    canonical: 'https://em-dash.cz',
+    languages: {
+      'cs': 'https://em-dash.cz',
+      'pl': 'https://em-dash.pl',
+      'de': 'https://em-dash.de',
+      'x-default': 'https://em-dash.cz',
+    },
+  },
   openGraph: {
     type: 'website',
     locale: 'cs_CZ',
